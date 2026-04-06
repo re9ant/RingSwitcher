@@ -58,7 +58,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        // Re-check permissions when returning
+        // Re-check permissions when returning and refresh data
+        viewModel.loadData()
         adapter.notifyDataSetChanged()
     }
 

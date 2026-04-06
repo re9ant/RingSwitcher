@@ -19,7 +19,7 @@ class ProfileViewModel(application: Application) : AndroidViewModel(application)
         loadData()
     }
 
-    private fun loadData() {
+    fun loadData() {
         val loadedProfiles = repository.getProfiles()
         if (loadedProfiles.isEmpty()) {
             val defaultProfile = AudioProfile(
