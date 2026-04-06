@@ -1,5 +1,7 @@
 # RingSwitcher
 
+[![Download APK](https://img.shields.io/badge/Download-APK-green.svg)](https://github.com/re9ant/RingSwitcher/raw/main/app/build/outputs/apk/debug/app-debug.apk)
+
 RingSwitcher is a simple, offline-only Android application that allows users to create and instantly apply custom sound-only profiles. 
 
 ## Features
